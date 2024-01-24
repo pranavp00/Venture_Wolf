@@ -1,0 +1,64 @@
+.logo{
+    width: 30vh;
+    align-items: left;
+    margin-left: 2%;
+    margin-bottom: 0.5%;
+    
+}
+.logo-col{
+    display: flex;
+    
+}
+
+
+.footer {
+    
+    bottom: 0;
+    width: 100vh;
+    
+    background-color: #343a40; /* Adjust background color as needed */
+    color: white;
+    text-align: center;
+    padding-top:2%;
+    
+
+  }
+.container{
+    padding: 0;
+    margin: 0 0 0 0;
+    
+}
+.copyright{
+    margin-bottom: 0;
+    padding: 0;
+}
+.row{
+    width: 100%;
+}
+
+.sitemaps{
+    text-align: right;
+    padding-right: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.mail-icon{
+    margin-top: 0.5%;
+    margin-left: 2%;
+    text-align: left;
+}
+.icons{
+    margin-top: 0.5%;
+    margin-right: 5.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .sitemaps {
+      text-align: center;
+    }
+    .stack{
+        display: none;
+    }
+  }

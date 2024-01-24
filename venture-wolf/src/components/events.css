@@ -1,0 +1,42 @@
+.event-container{
+    background-color: #847A7A;
+    width: 100%;
+    display:flexbox;
+    height:auto;
+    
+    
+
+}
+p{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.event-heading{
+    
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 500;
+    
+}
+.event-subheading{
+    
+    font-size: 36px;
+    font-weight: 500;
+}
+.button{
+    background-color: black;
+}
+.card-one{
+    align-items: center;
+}
+.cards{
+    margin-left:10%;
+    margin-top: 5%;
+    padding-bottom: 8%
+}
+.heading{
+    font-size: 56px;
+    margin: 0;
+    font-weight: 700;
+}
