@@ -1,5 +1,5 @@
 .logo{
-    width: 30vh;
+    width: 80%;
     align-items: left;
     margin-left: 2%;
     margin-bottom: 0.5%;
@@ -37,12 +37,15 @@
 }
 
 .sitemaps{
-    text-align: right;
+    text-align: center;
     padding-right: 2%;
+    
 }
 a{
     text-decoration: none;
     color: white;
+    font-size: large;
+    
 }
 .mail-icon{
     margin-top: 0.5%;
@@ -61,4 +64,7 @@ a{
     .stack{
         display: none;
     }
+  }
+  .stack{
+    margin-left: 3%;
   }
