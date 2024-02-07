@@ -1,0 +1,20 @@
+.carousel-inner{
+    height: 200px;
+}
+
+.row .row-cols-1 .row-cols-md-3 g-4{
+    margin-left: 20px;
+}
+.card-footer{
+    margin-top: -5px;
+    height: 55px;
+}
+.card-body{
+    margin-top:-10px ;
+    /* padding-bottom:-20px ; */
+}
+.container{
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: 87px;
+}

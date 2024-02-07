@@ -1,0 +1,28 @@
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.dropdown-item:hover{
+    color: grey;
+}
+/* styles.css or your external CSS file */
+
+.nav-underline {
+    display: flex;
+    margin-left: 500px;
+    
+}
+
+.nav-underline .nav-item {
+    margin-right: 5px; /* Adjust the margin as needed for spacing between icons */
+}
+
+.nav-underline .ml-auto {
+    margin-left: auto;
+}
+
+
