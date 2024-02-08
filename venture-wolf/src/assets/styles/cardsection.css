@@ -1,0 +1,27 @@
+/* cardsection.css or your external CSS file */
+.button-container {
+  /* width: 150rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6px;
+  gap: 20px;
+  /* Adjust the margin as needed */
+}
+
+.button-container button {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.btn-outline-secondary {
+  border-radius: 200px;
+  /* width: 100rem;
+  height: 50px;
+  font-size: 20px; */
+}
+.btn-outline-secondary:hover {
+  color: black;
+  transform: scale(1.1);
+  border-color: white;
+  /* box-shadow: 5 4px 8px rgba(13, 233, 57, 0.1); */
+}

@@ -3,7 +3,7 @@
 import React from 'react';
 import {  Row, Col, Stack } from 'react-bootstrap';
 import './footer.css';
-import logo from '../assets/footer-logo.jpg';
+import logo from '../assets/images/footer-logo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram,faFacebook,faXTwitter,faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
