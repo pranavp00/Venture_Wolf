@@ -3,9 +3,9 @@ import './App.css';
 import Footer from './components/footer';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import Header from './components/Header';
-// import CardSection from './components/common/CardSection'
+import CardSection from './components/CardSection';
 // import Footer from './components/common/Footer';
-// import Hero from './components/common/Hero';
+import Hero from './components/Hero';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -17,10 +17,12 @@ import JourneyCard from './components/JourneyCards';
 function App() {
   return (
     <div className="App">
+      <Home />
+    
       <Router>
       <div>
-        <Header />
-        {/* <Hero /> */}
+        <Header /> 
+        <Hero />
         <JourneyCard/>
         <Routes>
           <Route path="/" exact component={Home} />
@@ -28,10 +30,10 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/journey" component={Journey} />
         </Routes>
-        {/* <CardSection/> */}
+        <CardSection/>
 
-        {/* <Footer /> */}
-      </div>
+       
+     </div>
     </Router>
       
       <Footer />
