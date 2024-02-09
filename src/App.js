@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import Journey from './pages/Journey';
 // import maincss from './assets/styles/main.css'
 import JourneyCard from './components/JourneyCards';
+//import Responsive from "../../components/CardSlider/AllCards";
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
           <Route path="/journey" component={Journey} />
         </Routes>
         <CardSection/>
+
+    // <section className="CardSection">
+    // <Responsive/>
+    // </section>
 
        
      </div>
