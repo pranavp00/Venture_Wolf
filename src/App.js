@@ -30,3 +30,7 @@ function App() {
 }
 
 export default App;
+
+
+// <Route path='/' element={<Home/>} />
+// <Route exact path="/journey" element={<Journey/>} />
