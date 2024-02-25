@@ -3,10 +3,10 @@ import "slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import BasicCard from "./BasicCard";
-import { Ourvalues } from "../../../DummyData";
+import { Ourvalues } from "../../DummyData";
 import './AllCards.css'
 import HeadingTwo from "../HeadingTwo";
-import HeadingOne from "../HeadingOne/HeadingOne";
+// import HeadingOne from "../HeadingOne/HeadingOne";
 import HeadingFour from "../HeadingFour";
 // import React from 'react'
 
