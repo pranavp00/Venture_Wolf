@@ -4,9 +4,11 @@
     margin-left: 2%;
     margin-bottom: 0.5%;
     
+    
 }
 .logo-col{
     display: flex;
+    margin-right: 20%;
     
 }
 
@@ -35,27 +37,31 @@
 }
 .row{
     width: 100%;
+    margin-right: 0px;
 }
 
 .sitemaps{
-    text-align: center;
+    text-align:justify;
     padding-right: 2%;
+    margin-right: 2%;
+    width: auto;
     
 }
 a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 .mail-icon{
     margin-top: 0.5%;
-    margin-left: 2%;
+    margin-right: 2%;
     text-align: left;
 }
 .icons{
     margin-top: 0.5%;
-    margin-right: 5.5%;
+    margin-left: 20%;
+   
 }
 
 @media only screen and (max-width: 600px) {
@@ -68,4 +74,9 @@ a{
   }
   .stack{
     margin-left: 3%;
+  }
+  .icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
   }
