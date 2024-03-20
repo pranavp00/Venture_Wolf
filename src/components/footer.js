@@ -30,24 +30,29 @@ const Footer = () => {
                 </div> */}
             </Stack>
           </Col>
-          <Col md={1} className="sitemaps">
+          {/* <Col md={1} className="sitemaps">
             <ul className="list-unstyled ">
               <li><a href="#">Home</a></li>
             </ul>
-          </Col>
+          </Col> */}
           <Col md={1} className="sitemaps">
             <ul className="list-unstyled ">
-              <li><a href="#">About Us</a></li>
+              <li><a href="#">Get Funded</a></li>
             </ul>
           </Col>
           <Col md={1} className="sitemaps">
             <ul className="list-unstyled ">
-            <li><a href="#">Services</a></li>
+              <li><a href="#">Brands</a></li>
             </ul>
           </Col>
           <Col md={1} className="sitemaps">
             <ul className="list-unstyled ">
-            <li><a href="#">Our Values</a></li>
+            <li><a href="#">About Us</a></li>
+            </ul>
+          </Col>
+          <Col md={1} className="sitemaps">
+            <ul className="list-unstyled ">
+            <li><a href="#">Journey</a></li>
             </ul>
           </Col>
           {/* <Col md={1} className="sitemaps">
