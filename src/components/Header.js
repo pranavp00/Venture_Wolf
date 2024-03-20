@@ -4,6 +4,10 @@ import logo from '../../src/assets/images/logo.jpeg';
 import logo2 from '../../src/assets/images/logo2.jpeg';
 import logo3 from '../../src/assets/images/logo3.png';
 import '../../src/assets/styles/header.css';
+import {  Row, Col, Stack } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram,faFacebook,faXTwitter,faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Header = () => {
   return (
@@ -39,12 +43,6 @@ const Header = () => {
               </a>
             </li>
 
-            {/* <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Venture Wolf
-              </a>
-            </li> */}
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -58,6 +56,11 @@ const Header = () => {
               <ul className="dropdown-menu ">
                 <li>
                   <a className="dropdown-item" href="#">
+                    Venture Wolf
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
                     Wolf Den
                   </a>
                 </li>
@@ -66,18 +69,36 @@ const Header = () => {
                     Alpha Wolf Club
                   </a>
                 </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Venture Wolf
-                  </a>
-                </li>
               </ul>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
                 About Us
               </a>
+              <ul className="dropdown-menu ">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Values
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Presence
+                  </a>
+                </li>
+              </ul>
             </li>
 
             <li className="nav-item">
@@ -104,6 +125,11 @@ const Header = () => {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
+                    Press
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
                     Gallery
                   </a>
                 </li>
@@ -120,9 +146,10 @@ const Header = () => {
           
           </ul>
 
+          {/*
           <ul className="nav nav-underline">
-            <li className="nav-item">
-              <a
+             <li className="nav-item">
+             </a>
                 className="nav-link"
                 href="https://twitter.com"
                 target="_blank"
@@ -148,7 +175,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <i className="fab fa-facebook"></i> */}
+                <i className="fab fa-facebook"></i> 
                 <i class="fa-brands fa-instagram"></i>
               </a>
             </li>
@@ -159,7 +186,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <i className="fab fa-facebook"></i> */}
+                <i className="fab fa-facebook"></i> 
                 <i className="fab fa-youtube"></i>
               </a>
             </li>
@@ -170,11 +197,21 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <i className="fab fa-facebook"></i> */}
                 <i className="fab fa-whatsapp"></i>
               </a>
             </li>
-          </ul>
+          </ul> */}
+
+<div className="mail-icon">
+                    <Stack direction="horizontal" className="justify-content-between">
+                        <div className="icons"><a href='#'><FontAwesomeIcon icon={faInstagram} /></a></div>
+                        <div className="icons"><a href='#'><FontAwesomeIcon icon={faFacebook} /></a></div>
+                        <div className="icons"><a href='#'><FontAwesomeIcon icon={faYoutube} /></a></div>
+                        <div className="icons"><a href='#'><FontAwesomeIcon icon={faXTwitter} /></a></div>
+                        <div className="icons"><a href='#'><FontAwesomeIcon icon={faLinkedinIn} /></a></div>
+                    </Stack>
+                </div>
+
         </div>
       </nav>
     </nav>
