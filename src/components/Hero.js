@@ -10,7 +10,7 @@ const Header = () => {
       class="carousel slide carousel-fade"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
+      <div class="carousel-inner h-100">
         <div class="carousel-item active" data-bs-interval="10000">
           <img src={image1} class="d-block w-100" alt="..." />
           <nav className="navbar navbar-expand-lg bg-dark">
