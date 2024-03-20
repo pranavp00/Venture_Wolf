@@ -8,16 +8,16 @@ const Footer = () => {
     <>
       <hr />
       <div className="button-container">
-      <button type="button" className="btn btn-outline-secondary btn-lg">
+      <button type="button" className="btn btn-gradient btn-lg">
         LOOKING TO RAISE FUNDS
       </button>
-      <button type="button" className="btn btn-outline-secondary btn-lg">
+      <button type="button" className="btn btn-gradient btn-lg">
         LOOKING TO INVEST
       </button>
-      <button type="button" className="btn btn-outline-secondary btn-lg">
+      <button type="button" className="btn btn-gradient btn-lg">
         LOOKING TO ENTER INDIAN MARKETS
       </button>
-      <button type="button" className="btn btn-outline-secondary btn-lg">
+      <button type="button" className="btn btn-gradient btn-lg">
         BE OUR VENTURE PARTNER
       </button>
     </div>
