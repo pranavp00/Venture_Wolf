@@ -1,8 +1,8 @@
 .card{
     background: #0d1117 !important; 
     color:rgba(255,255,255,0.8) !important;
-    width:75%;
-    height:28rem;
+    width:70%;
+    height:25rem;
     border-radius: 15px;
     transition: transform 0.5s ease-in-out;
     border-radius: 0px 0px 10px 10px, !important;
@@ -14,7 +14,12 @@
   cursor: pointer;
   transform: scale(1.03);
 }
-/* ===== Scrollbar CSS ===== */
+
+div.card-body p{
+  height: 7.7rem;
+  overflow-y: auto !important;
+}
+  /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: thin;
