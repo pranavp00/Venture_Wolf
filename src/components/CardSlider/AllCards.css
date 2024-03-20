@@ -1,6 +1,5 @@
 .card {
   padding: 0.5em;
-  width: 85%;
   border: 1px solid rgb(47, 59, 51);
   margin: 2rem;
   
@@ -30,11 +29,11 @@
     padding-left: 6rem;
   }
 
-  .slick-prev, .slick-next{
+  /* .slick-prev, .slick-next{
     display: none;
-  }
+  } */
   .card{
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -49,7 +48,7 @@
   .slick-slider{
     padding-right: 2rem;
   }
-  .slick-prev, .slick-next{
+  /* .slick-prev, .slick-next{
     display: none;
-  }
+  } */
 }
