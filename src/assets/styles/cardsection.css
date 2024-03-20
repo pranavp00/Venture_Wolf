@@ -12,16 +12,28 @@
 .button-container button {
   margin: 0 10px; /* Adjust the margin as needed */
 }
-
+/* 
 .btn-outline-secondary {
   border-radius: 200px;
   /* width: 100rem;
   height: 50px;
-  font-size: 20px; */
+  font-size: 20px; 
 }
 .btn-outline-secondary:hover {
   color: black;
   transform: scale(1.1);
   border-color: white;
-  /* box-shadow: 5 4px 8px rgba(13, 233, 57, 0.1); */
+  box-shadow: 5 4px 8px rgba(13, 233, 57, 0.1);
+}
+*/
+.btn-gradient{
+  /* border-radius: $border-rounded; */
+    margin: 10px;
+    padding: 1em 2em;
+    color: white;
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)
+}  
+
+.btn-gradient:hover{
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
 }
