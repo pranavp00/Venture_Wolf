@@ -17,8 +17,7 @@ const Footer = () => {
         <Row className="align-items-start row row-cols-1 row-cols-md-2">
           <Col md={3} className="d-flex text-left logo-col">
             <Stack className = 'stack'>
-                <img src={logo} alt="Your Logo" className="logo" />
-                <div className="mail-icon"><a href = '#'><FontAwesomeIcon icon={faEnvelope} /> funding@venturewolf</a></div>
+            <img src={logo} alt="Your Logo" className="logo" />
                 {/* <div className="icon">
                     <Stack direction="horizontal" className="justify-content-between">
                         <div className="icons"><a href='#'><FontAwesomeIcon icon={faInstagram} /></a></div>
@@ -69,6 +68,26 @@ const Footer = () => {
           
           
         </Row>
+        <Row className="align-items-start row row-cols-1 row-cols-md-2">
+        <Col>
+        <div className="mail-icon" style ={{marginLeft: "3%"}}><a href = '#'><FontAwesomeIcon icon={faEnvelope} /> funding@venturewolf</a></div>
+        </Col>
+        <Col>
+        <div className="icon" >
+                    <Stack direction="horizontal" className="">
+                        <div className="icons" style = {{marginRight: "10px"}}><a href='#'><FontAwesomeIcon icon={faInstagram} /></a></div>
+                        <div className="icons" style = {{marginRight: "10px"}}><a href='#'><FontAwesomeIcon icon={faFacebook} /></a></div>
+                        <div className="icons" style = {{marginRight: "10px"}}><a href='#'><FontAwesomeIcon icon={faYoutube} /></a></div>
+                        <div className="icons" style = {{marginRight: "10px"}}><a href='#'></a><FontAwesomeIcon icon={faXTwitter} /></div>
+                        <div className="icons" style = {{marginRight: "10px"}}><a href='#'></a><FontAwesomeIcon icon={faLinkedinIn} /></div>
+                    </Stack>
+                </div>
+        </Col>
+        
+        
+        </Row>
+        {/* <Row>
+        <div className="mail-icon"><a href = '#'><FontAwesomeIcon icon={faEnvelope} /> funding@venturewolf</a></div>
         <div className="icon">
                     <Stack direction="horizontal" className="">
                         <div className="icons"><a href='#'><FontAwesomeIcon icon={faInstagram} /></a></div>
@@ -78,6 +97,8 @@ const Footer = () => {
                         <div className="icons"><a href='#'></a><FontAwesomeIcon icon={faLinkedinIn} /></div>
                     </Stack>
                 </div>
+        </Row> */}
+        
       
       <div className="text-center  copyright" >
         © {new Date().getFullYear()} Copyright:<a className="" href="#"> Venture Wolf</a>
