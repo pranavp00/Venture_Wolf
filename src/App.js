@@ -21,9 +21,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route exact path="/journey" element={<Journey/>} />
-          <Route exact path="/venturewolf" element={<Venture_wolf/>} />
-          <Route exact path="/wolfdenclub" element={<WolfDenClub/>} />
+          <Route exact path="./journey" element={<Journey/>} />
+          <Route exact path="./venturewolf" element={<Venture_wolf/>} />
+          <Route exact path="./wolfdenclub" element={<WolfDenClub/>} />
         </Routes>
       
   
