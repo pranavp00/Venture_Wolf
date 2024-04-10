@@ -12,7 +12,7 @@ const CNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" style={{ height: '100px' }}>
       <Container fluid>
-        <Navbar.Brand href="/" style={{ paddingRight: '5%' }}>
+        <Navbar.Brand href="./" style={{ paddingRight: '5%' }}>
           <img src={Logo} style={{ width: '250px' }} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent" />
