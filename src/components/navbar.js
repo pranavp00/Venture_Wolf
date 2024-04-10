@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter, faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Logo from '../assets/images/footer-logo.jpg';
+import './navbar.css';
 
 const CNavbar = () => {
   return (
@@ -24,8 +25,8 @@ const CNavbar = () => {
               style={{ marginRight: '3vh', fontSize: '20px' }}
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#" style={{ color: 'white' }}>Venture Wolf</NavDropdown.Item>
-              <NavDropdown.Item href="#" style={{ color: 'white' }}>Wolf Den</NavDropdown.Item>
+              <NavDropdown.Item href="/venturewolf" style={{ color: 'white' }}>Venture Wolf</NavDropdown.Item>
+              <NavDropdown.Item href="/wolfdenclub" style={{ color: 'white' }}>Wolf Den</NavDropdown.Item>
               <NavDropdown.Item href="#" style={{ color: 'white' }}>Alpha Wolf Club</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown 

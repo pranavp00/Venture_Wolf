@@ -8,6 +8,8 @@ import Home from './pages/Home';
 // import About from './pages/About';
 // import Contact from './pages/Contact';
 import Journey from './pages/Journey';
+import Venture_wolf from './pages/venturewolf';
+import WolfDenClub from './pages/WolfDenClub';
 // import maincss from './assets/styles/main.css'
 // import JourneyCard from './components/JourneyCards';
 
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route exact path="/journey" element={<Journey/>} />
+          <Route exact path="/venturewolf" element={<Venture_wolf/>} />
+          <Route exact path="/wolfdenclub" element={<WolfDenClub/>} />
         </Routes>
       
   

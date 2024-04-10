@@ -1,0 +1,87 @@
+/* AboutVentureWolf.css */
+
+.about-venture-wolf {
+  background-color: #f5f5f5; /* Light grey background */
+  padding: 2rem 0; /* Add vertical padding */
+}
+
+.container {
+  max-width: 80%; /* Set a maximum width for responsiveness */
+   /* Center the container horizontally */
+  padding: 0 1rem; /* Add horizontal padding (optional) */
+}
+
+.heading {
+  text-align: center; /* Center the heading text */
+  margin-bottom: 2rem; /* Add space below the heading */
+}
+
+h2 {
+  font-size: 2rem; /* Adjust font size for heading */
+  color: #333; /* Black text color */
+}
+
+.content {
+  color: #333; /* Black text color */
+  line-height: 1.5; /* Adjust line spacing for readability */
+}
+
+.services {
+  display: flex; /* Arrange services in a row */
+  flex-wrap: wrap; /* Wrap services on smaller screens */
+  justify-content: space-between; /* Distribute services evenly horizontally */
+  width: 100%; /* Full container width */
+  margin-top: 1rem;
+  
+}
+
+.service {
+  text-align: left;
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 1rem; /* Adjust margin for spacing */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  width: 45%; /* Adjust width slightly less than 50% to account for margins */
+  background-color: #f5f5f5;
+}
+
+/* Apply elegant font to h3 and p elements within the service */
+.service h3,
+.service p {
+  font-family: 'Merriweather', serif; /* Elegant serif font */
+}
+
+.service:hover,
+p:hover:after {
+  transform: translateY(-5px); /* Slight upward shift on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  background-color: inherit; /* Inherit border color for background on hover */
+  opacity: 1;
+}
+
+.service:hover {
+  background-color: transparent; /* Remove background color on hover (reveals border) */
+}
+
+/* Different outlines for services using pseudo-classes */
+.service:nth-child(odd) {
+  border: 2px solid #007bff; /* Blue outline for odd services */
+}
+
+.service:nth-child(even) {
+  border: 2px solid #ffc107; /* Orange outline for even services */
+}
+
+.service:nth-child(3n + 1) { /* Applies to the first service in every row (multiple of 3 + 1) */
+  border: 2px solid #28a745; /* Green outline for the first in each row */
+}
+
+
+
+@media (max-width: 850px) {
+ 
+
+  .service { 
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.networking-section {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem; /* Increased font size for h1 */
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script', cursive; /* Elegant cursive font */
+  }
+  
+  p {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-top: 0;
+  }
+  
+  a {
+    color: #007bff; /* Blue color for the phone number link */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media (max-width: 768px) {
+    .networking-section {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  

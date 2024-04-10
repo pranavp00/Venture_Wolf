@@ -1,0 +1,61 @@
+/*  For screens smaller than lg (large) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #212529;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-item {
+    text-align: left;
+    padding-left: 10px; /* Reduce left padding for text */
+  }
+
+  .me-auto,
+  .ms-auto {
+    flex: 0 0 auto;
+  }
+
+  /* Hide social media links in collapsed navbar */
+  .ms-auto {
+    display: none;
+  }
+
+  /* Style the dropdown menus */
+  .dropdown-menu {
+    background-color: #343a40;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+
+  .dropdown-item:hover {
+    background-color: #495057;
+    color: #fff;
+  }
+}
+/*  For screens smaller than md (medium) */
+@media (max-width: 767px) {
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-nav {
+  margin-top: 15px;
+}
+}
+
+/*  For screens smaller than sm (small) */
+@media (max-width: 575px) {
+.navbar-collapse {
+  margin-top: 15px;
+}
+}

@@ -1,0 +1,82 @@
+venture-wolf-section {
+  background-color: #eeecec;
+  padding: 60px 0;
+  text-align: center;
+  
+}
+
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+  margin-top: 3rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+/* Responsive Features */
+.features-container {
+  display: flex; /* Keep features in a single row regardless of screen size */
+  flex-wrap: wrap; /* Wrap services to multiple lines on smaller screens */
+  justify-content: center; /* Center features horizontally */
+  margin: 0 auto; /* Center the container horizontally */
+  width: 80%; /* Adjust container width as needed */
+  margin-top: 1rem;
+}
+
+.feature {
+  text-align: left;
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 1rem;
+  flex: 1 0 25%; /* Fixed width for smaller features */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Include background-color in transition */
+}
+
+.feature:hover {
+  transform: translateY(-5px); /* Slight upward shift on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  background-color: inherit; /* Inherit border color for background on hover */
+}
+
+.feature-one {
+  border: 2px solid #007bff; /* Blue outline */
+}
+
+.feature-two {
+  border: 2px solid #ffc107; /* Orange outline */
+}
+
+.feature-three {
+  border: 2px solid #28a745; /* Green outline */
+}
+.feature-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  
+}
+
+.feature-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Media Queries for Responsive Layout */
+@media (max-width: 768px) {
+  .features-container {
+    flex-wrap: wrap; /* Wrap features on smaller screens */
+  }
+  .feature {
+    flex: 1 0 100%; /* Make features take up full width on small screens */
+  }
+}
