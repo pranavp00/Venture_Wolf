@@ -4,7 +4,7 @@ import CNavbar from '../components/navbar';
 import AboutVentureWolf from '../components/AboutVentureWolf';
 import './venturewolf.css';
 // import AboutUs from '../components/AboutUs';
-const Venture_wolf = () => {
+const Venturewolf = () => {
     return (
         <div>
             <CNavbar />
@@ -41,4 +41,4 @@ const Venture_wolf = () => {
         </div>
     )
 }
-export default Venture_wolf
+export default Venturewolf

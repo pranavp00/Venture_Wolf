@@ -25,8 +25,8 @@ const CNavbar = () => {
               style={{ marginRight: '3vh', fontSize: '20px' }}
               menuVariant="dark"
             >
-              <NavDropdown.Item href="/venturewolf" style={{ color: 'white' }}>Venture Wolf</NavDropdown.Item>
-              <NavDropdown.Item href="/wolfdenclub" style={{ color: 'white' }}>Wolf Den</NavDropdown.Item>
+              <NavDropdown.Item href="./venturewolf" style={{ color: 'white' }}>Venture Wolf</NavDropdown.Item>
+              <NavDropdown.Item href="./wolfdenclub" style={{ color: 'white' }}>Wolf Den</NavDropdown.Item>
               <NavDropdown.Item href="#" style={{ color: 'white' }}>Alpha Wolf Club</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown 
