@@ -13,6 +13,12 @@ import WolfDenClub from './pages/WolfDenClub';
 // import maincss from './assets/styles/main.css'
 // import JourneyCard from './components/JourneyCards';
 
+import GetFunded from './pages/GetFunded';
+import OurValue from './pages/OurValues';
+import Services from './pages/Services';
+import OurPresense from './pages/OurPresense';
+import Founder from './pages/Founder';
+
 
 function App() {
   return (
@@ -24,6 +30,11 @@ function App() {
           <Route exact path="/journey" element={<Journey/>} />
           <Route exact path="/venturewolf" element={<Venturewolf/>} />
           <Route exact path="/wolfdenclub" element={<WolfDenClub/>} />
+          <Route exact path="/getFunded" element={<GetFunded/>} />
+          <Route exact path="/ourValues" element={<OurValue/>} /> 
+          <Route exact path="/services" element={<Services/>} /> 
+          <Route exact path="/ourPresense" element={<OurPresense/>} /> 
+          <Route exact path="/founder" element={<Founder/>} /> 
         </Routes>
       
   
