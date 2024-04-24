@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  background-color: #DCDFD9;
+  margin-bottom: 5%;
+  flex-direction: row;
+}
+
+.text-half {
+  flex: 0.5;
+  background-color: #DCDFD9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn1 5s ease forwards;
+  font-weight: bold;
+}
+
+.text {
+  max-width: 80%;
+  text-align: center;
+}
+
+.image-half {
+  flex: 0.5;
+  /* background: url("../../assets/images/map.gif"); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  animation: fadeIn1 5s ease forwards; 
+  color: transparent;
+  user-select: none;
+}
+
+@keyframes fadeIn { 
+  from {
+      margin-left: 50%; /* Start from fully transparent */
+  }
+  to {
+      margin-left: 0%; /* End with full opacity */
+  }
+}
+
+@keyframes fadeIn1 { 
+  from {
+      margin-right: 50%; /* Start from fully transparent */
+  }
+  to {
+      margin-right: 0%; /* End with full opacity */
+  }
+}
+.image-half:hover {
+  animation: zoomIn 1s ease forwards;
+}
+
+@keyframes zoomIn { 
+  from {
+      transform: scale(0.7);
+  }
+  to {
+      transform: scale(1.2);
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .container {
+      flex-direction: column;
+  }
+
+.image-half img{
+      flex: 1; 
+      padding-top: 10%;
+      width: 90vw;
+      padding: auto;
+      height: auto;
+  }
+  .text-half{
+    flex: 1;
+    padding-top: 10%;
+    height: 100vh;
+
+  }
+
+
+}

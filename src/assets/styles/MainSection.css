@@ -1,0 +1,18 @@
+
+.bg{
+   width: 100vw;
+   height: 80vh;
+   margin-bottom: 3%;
+}
+
+@media only screen and (min-height: 1000px) {
+   .bg {
+      height: 50vh;
+   }
+ }
+
+ @media only screen and (min-width: 270px) and (max-width:1000px){
+   .bg {
+      height: 41vh;
+   }
+ }

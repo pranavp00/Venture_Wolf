@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    background-color: #DCDFD9;
+    margin-bottom: 5%;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .text-half {
+    flex: 0.5;
+    background-color: #DCDFD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: fadeIn1 5s ease forwards;
+    font-weight: bold;
+
+  }
+  
+  .text {
+    max-width: 98%;
+    text-align: left;
+  }
+  
+  .text p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .image-halff {
+    flex: 0.5;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    color: transparent;
+    user-select: none;
+    padding-top: 10vh;
+    padding-left: 5vw;
+  }
+  
+  @keyframes fadeIn { 
+    from {
+        margin-left: 50%; /* Start from fully transparent */
+    }
+    to {
+        margin-left: 0%; /* End with full opacity */
+    }
+  }
+  
+  @keyframes fadeIn1 { 
+    from {
+        margin-right: 50%; /* Start from fully transparent */
+    }
+    to {
+        margin-right: 0%; /* End with full opacity */
+    }
+  }
+
+  
+  @media only screen and (max-width: 968px) {
+    .container {
+        flex-direction: column;
+    }
+  
+  .image-halff img{
+        flex: 1; 
+        padding-top: 10%;
+        width: 40vw;
+        padding: auto;
+        height: auto;
+
+    }
+    .text-half{
+      flex: 1;
+      padding-top: 10%;
+      height: 100vh;
+  
+    }
+  
+  
+  }
+  
